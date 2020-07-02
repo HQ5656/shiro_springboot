@@ -38,6 +38,8 @@ public class MyController {
     @RequestMapping("/login")
     public  String login(String username, String password, Model model, HttpServletRequest request){
         //获取当前用户
+        
+        ///vdxfbvgsxfg
         Subject subject = SecurityUtils.getSubject();
         //封装用户信息
         UsernamePasswordToken usernamePasswordToken = new UsernamePasswordToken(username,password);
